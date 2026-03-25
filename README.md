@@ -52,8 +52,11 @@ This section explains the relation between Maple scripts in this repository and 
 ### Outputs
 All scripts save results in the `output/` folder in `.mpl` files. Variables include:
 
-- `bracket_integrand_X` - Integrand $I(\eta, n)$ of the eigenvalue correction $$\delta \lambda^X_{(n)} = \int_0^\infty I(\eta, n) d \eta$$
+- `bracket_integrand_X` — Integrand $I(\eta, n)$ of the eigenvalue correction
+
+$$\delta \lambda^X_{(n)} = \int_0^\infty I_X(\eta, n) d \eta$$
+
 of the mode `X`, for any $n$.
-- `series_integrand_X` - Series of the integrand.
+- `series_integrand_X` — Series of the integrand.
 - `correction_X` — Conjectures a recurrence for mode `X` based on the closed-form integrals of the first modes ($n=2,\dots,10$). This process is automated in `load/compute_correction.mpl`. It is important to remark that we have checked the conjecture for each mode.
 
