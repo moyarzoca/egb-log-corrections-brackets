@@ -52,7 +52,7 @@ This section explains the relation between Maple scripts in this repository and 
 ### Outputs
 All scripts save results in the `output/` folder in `.mpl` files. Variables include:
 
-- `bracket_integrand_X` — Integrand $I(\eta, n)$ of the eigenvalue correction
+- `bracket_integrand_X` — Integrand $I_X(\eta, n)$ of the eigenvalue correction
 
 $$\delta \lambda^X_{(n)} = \int_0^\infty I_X(\eta, n) d \eta$$
 
