@@ -1,7 +1,7 @@
 # One-Loop Corrections in Einstein-Maxwell-Gauss-Bonnet
 
 This repository contains Maple scripts reproducing the results presented in:
-> Alejandro Alvarado, Andrés Anabalón, Mariano Chernicoff, Julio Oliva, Marcelo Oyarzo, Gabriel Ortega and Jorge Urbina, Logarithmic corrections to the entropy of near-extremal black holes in Einstein-Gauss-Bonnet, arXiv:2603.XXXXX [hep-th].
+> Alejandro Alvarado, Andrés Anabalón, Mariano Chernicoff, Julio Oliva, Marcelo Oyarzo, Gabriel Ortega and Jorge Urbina, Logarithmic corrections to the entropy of near-extremal black holes in Einstein-Gauss-Bonnet, [arXiv:2603.24939 [hep-th]](https://arxiv.org/abs/2603.24939).
 
 The nine Maple script are constructed to compute the bracket of the corrected operator linear in the temperature T for different modes. In particular, it computes:
 
